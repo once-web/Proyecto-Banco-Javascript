@@ -1,0 +1,50 @@
+body {
+  background: url(imagenes/fondo1.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.main-section {
+  margin: 0 auto;
+  margin-top: 25%;
+  padding: 0;
+}
+.modal-content {
+  opacity: 0.7;
+  padding: 0 20px;
+  box-shadow: 0px 0px 3px lightgray;
+}
+#avatarprincipal {
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
+  height: 150px;
+  width: 150px;
+}
+
+.form-group input {
+  height: 42px;
+  font-size: 18px;
+  border: 0;
+  border-radius: 5px;
+  padding-left: 54px;
+}
+.form-group::before {
+  font-family: "Font Awesome\ 5 Free";
+  position: absolute;
+  left: 28px;
+  font-size: 22px;
+  padding-top: 4px;
+}
+.form-group#user-group::before {
+  content: "\f007";
+}
+
+.form-group#contrasena-group::before {
+  content: "\f023";
+}
+
+h1 {
+  color: #ffffff;
+  background: transparent;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #49ff18,
+    0 0 30px #49ff18, 0 0 40px #49ff18, 0 0 55px #49ff18, 0 0 75px #49ff18;
+}

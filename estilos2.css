@@ -1,0 +1,88 @@
+body {
+  background: url(imagenes/fondo-de-pantalla-de-super-mario-bros.-2-fondos-de-pantalla-de-juegos-14849.-fondo-de-pantalla-de-mario-bros.jpg)
+    no-repeat center center fixed;
+  background-size: cover;
+}
+
+h1 {
+  color: #ffffff;
+  background: transparent;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #49ff18,
+    0 0 30px #49ff18, 0 0 40px #49ff18, 0 0 55px #49ff18, 0 0 75px #49ff18;
+}
+
+#avatarprincipal {
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
+  height: 150px;
+  width: 150px;
+}
+
+.main-section {
+  margin: 0 auto;
+  margin-top: 25%;
+  padding: 0;
+}
+.modal-content {
+  opacity: 0.7;
+  padding: 0 20px;
+  box-shadow: 0px 0px 3px lightgray;
+  color: blue;
+}
+
+#boton1 {
+  position: relative;
+  left: 60px;
+}
+#boton2 {
+  position: relative;
+  left: 75px;
+}
+
+#barra {
+  opacity: 0.7;
+  padding: 0 20px;
+  box-shadow: 0px 0px 3px lightgray;
+  border: 1px solid lightgray;
+  background-color: #fff;
+}
+.tercer-contenedor {
+  position: relative;
+  top: -405px;
+  left: 500px;
+}
+
+#calculadora {
+  display: none;
+  position: absolute;
+  left: 10px;
+  bottom: -200px;
+}
+h6 {
+  text-shadow: 0 0 20px #fefcc9, 2px -2px 3px #feec85, -4px -4px 5px #ffae34,
+    5px -10px 6px #ec760c, -5px -12px 8px #cd4606, 0 -15px 20px #973716,
+    2px -15px 20px #451b0e;
+  color: rgb(236, 3, 3);
+}
+
+#calculadora4 {
+  display: none;
+  position: absolute;
+  left: 10px;
+  bottom: -200px;
+}
+
+
+#calculadora7 {
+  display: none;
+  position: absolute;
+  left: 10px;
+  bottom: -200px;
+}
+
+#calculadora8 {
+  display: none;
+  position: absolute;
+  left: 10px;
+  bottom: -250px;
+}
